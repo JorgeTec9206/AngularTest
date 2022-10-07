@@ -1,0 +1,22 @@
+
+.accordion-body{
+    padding: 0;
+}
+.bd-sidebar{
+    width: 200px;
+    position: absolute;
+    bottom: 0;
+    top: 56px;
+    z-index: 1000;
+    overflow: hidden;
+    transition: all 0.2s ease;
+}
+mat-list{
+    width: 200px;
+    position: absolute;
+    bottom: 0;
+    top: 56px;
+    z-index: 1000;
+    overflow: hidden;
+    transition: all 0.2s ease;
+}

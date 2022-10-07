@@ -1,0 +1,36 @@
+<main class="bd-main order-1">
+    <mat-grid-list cols="1" rowHeight="1:1">
+        <mat-grid-tile>
+            <mat-card>
+                <mat-card-title>Grafia linea y barra con exportacion a excel</mat-card-title>
+                <mat-card-content>
+                    <!--The content below is only a placeholder and can be replaced.-->
+                    <div id="chart">
+                        <apx-chart
+                        [series]="series"
+                        [chart]="chart"
+                        [xaxis]="xaxis"
+                        [stroke]="stroke"
+                        [title]="title"
+                        [markers]="markers"
+                        [yaxis]="yaxis"
+                        [fill]="fill"
+                        ></apx-chart>
+                    </div> 
+                    <div id="chart">
+                        <apx-chart
+                          [series]="seriesm"
+                          [chart]="chartm"
+                          [legend]="legendm"
+                          [dataLabels]="dataLabelsm"
+                          [colors]="colorsm"
+                          [plotOptions]="plotOptionsm"
+                        ></apx-chart>
+                      </div>
+                      
+                </mat-card-content>
+            </mat-card>
+        </mat-grid-tile>
+      </mat-grid-list>
+      
+</main>

@@ -1,0 +1,36 @@
+.bd-main{
+    height: 100%;
+    padding-left: 200px;
+    min-height: 100vh;
+}
+mat-card{
+    width: 100%;
+}
+
+.mat-grid-tile-content{
+    position: unset;
+}
+#chart {
+    max-width: 650px;
+    margin: 35px auto;
+  }
+apx-chart{
+    height: 100%;
+}
+.mat-grid-tile{
+    width: 50%;
+    height: 60%;
+}
+.item-box{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 80%;
+}
+.mat-grid-tile-content{
+    display: flex;
+    align-items: flex-start;
+}
+.mat-grid-tile > div{
+    align-items: flex-start;
+}

@@ -1,0 +1,51 @@
+<main class="bd-main order-1">
+    <div class="item-box">
+        <mat-grid-tile class="xxx">
+            <mat-card>
+                <mat-card-title>Grafica Lineal</mat-card-title>
+                <mat-card-content>
+                    <!--The content below is only a placeholder and can be replaced.-->
+                    <div id="chart">
+                        <apx-chart
+                        [series]="series"
+                        [chart]="chart"
+                        [xaxis]="xaxis"
+                        [stroke]="stroke"
+                        [tooltip]="tooltip"
+                        [dataLabels]="dataLabels"
+                        [legend]="legend"
+                        [markers]="markers"
+                        [grid]="grid"
+                        [title]="title"
+                        ></apx-chart>
+                    </div>
+                </mat-card-content>
+            </mat-card>
+        </mat-grid-tile>
+    </div>
+    <div class="item-box">
+        <mat-grid-tile class="xxx">
+            <mat-card>
+                <mat-card-title>Grafica de Barras</mat-card-title>
+                <mat-card-content>
+                    <div id="chart">
+                        <apx-chart
+                          [series]="seriesm"
+                          [chart]="chartm"
+                          [dataLabels]="dataLabelsm"
+                          [stroke]="strokem"
+                          [colors]="colorsm"
+                          [title]="titlem"
+                          [subtitle]="subtitlem"
+                          [plotOptions]="plotOptionsm"
+                          [yaxis]="yaxism"
+                          [xaxis]="xaxism"
+                          [tooltip]="tooltipm"
+                        ></apx-chart>
+                      </div>
+                      
+                </mat-card-content>
+            </mat-card>
+        </mat-grid-tile>
+      </div>
+</main>

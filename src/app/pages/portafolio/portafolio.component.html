@@ -1,0 +1,24 @@
+<main class="bd-main order-1">
+  <div class="item-box">
+    <mat-grid-tile class="xxx">
+      <mat-card>
+        <mat-card-title>Grafica de 3 tabs</mat-card-title>
+        <mat-card-content>
+            <div id="chart">
+                <apx-chart
+                  [series]="series"
+                  [chart]="chart"
+                  [dataLabels]="dataLabels"
+                  [plotOptions]="plotOptions"
+                  [yaxis]="yaxis"
+                  [fill]="fill"
+                  [stroke]="stroke"
+                  [tooltip]="tooltip"
+                  [xaxis]="xaxis"
+                ></apx-chart>
+              </div>
+        </mat-card-content>
+      </mat-card>
+    </mat-grid-tile>
+  </div>
+</main>
